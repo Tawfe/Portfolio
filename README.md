@@ -1,6 +1,6 @@
 # Tawfeeq Irshaidat — Mobile Developer Portfolio
 
-Modern, high-performance portfolio website showcasing mobile engineering services, production app contributions (QSC, Mahfazty, Ubhar Capital, Aman Bus, FittiCoin), an interactive project scope & budget calculator, and full English / Arabic (RTL) localization.
+Modern, high-performance portfolio website showcasing mobile engineering expertise, production app contributions (QSC, Mahfazty, Ubhar Capital, Aman Bus, FittiCoin), client FAQ, and full English / Arabic (RTL) localization.
 
 ## 🚀 Features
 
@@ -10,8 +10,8 @@ Modern, high-performance portfolio website showcasing mobile engineering service
   - **Ubhar Capital (U Capital)** — Muscat Securities Exchange (MSX) trading modules and order management.
   - **Aman Bus** — Background GPS fleet telemetry in React Native & Expo.
   - **FittiCoin** — Health gamification & custom rewards UI in native UIKit.
-- **Interactive Project Scope & Cost Estimator**: Real-time project timeline and ballpark budget calculator with pre-filled inquiry generator.
-- **Service Packages**: Structured client tiers for Feature Sprints, Turnkey MVPs, and Monthly Fractional Retainers.
+- **Direct Engagement**: WhatsApp quick-chat (`wa.me`) integration and downloadable PDF resume.
+- **Client FAQ**: Clear answers on IP ownership, 100% App Store approval guarantee, and communication.
 - **Bilingual Localization**: One-click English ↔ Arabic (RTL) toggle.
 - **Clean Responsive Architecture**: Ultra-responsive layout styled with modern CSS & Tailwind.
 
@@ -20,7 +20,7 @@ Modern, high-performance portfolio website showcasing mobile engineering service
 - **Native iOS**: Swift, SwiftUI, UIKit, Combine, CocoaPods, Xcode
 - **Cross-Platform**: React Native, Expo (TaskManager, Location), TypeScript
 - **APIs & Real-Time**: SignalR WebSockets, REST APIs, Axios, Codable
-- **Payments**: Al Rajhi Payment Gateway, Paymob, PayFort, Fawry, Apple Pay
+- **Payments**: Stripe, Paymob, Fawry, Apple Pay
 
 ## 💻 Local Preview
 
