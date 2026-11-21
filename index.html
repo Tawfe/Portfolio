@@ -403,9 +403,12 @@
         <div class="bg-[#0b101c] border border-slate-800 hover:border-cyan-500/50 transition-all rounded-3xl p-6 flex flex-col justify-between space-y-4">
           <div class="space-y-3">
             <div class="flex items-center justify-between gap-3 text-xs">
-              <span class="px-2.5 py-1 rounded-md bg-purple-950/80 border border-purple-500/30 text-purple-300 font-mono-code font-bold text-[11px] truncate">
-                FITTICOIN (REWARDS)
-              </span>
+              <div class="flex items-center gap-2 min-w-0">
+                <img src="fitticoin-logo-clean.png" alt="FittiCoin Logo" class="h-6 w-auto rounded-md border border-purple-500/40 shadow-sm shrink-0" title="FittiCoin">
+                <span class="px-2.5 py-1 rounded-md bg-purple-950/80 border border-purple-500/30 text-purple-300 font-mono-code font-bold text-[11px] truncate">
+                  FITTICOIN (REWARDS)
+                </span>
+              </div>
               <span class="text-slate-400 text-xs font-mono-code shrink-0 text-right">iOS · UIKit</span>
             </div>
             
@@ -414,6 +417,34 @@
             <p class="text-xs text-slate-300 leading-relaxed">
               <strong>My Contribution:</strong> Built custom user interface modules and feature enhancements in native <strong>UIKit</strong>. Focused on responsive layout performance, fluid touch interactions, activity reward synchronization, and strict Apple design guideline compliance.
             </p>
+
+            <!-- Production Screenshots Strip -->
+            <div class="pt-2 space-y-1.5">
+              <div class="flex items-center justify-between text-[11px] font-mono-code text-slate-400">
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse"></span> Production iOS UI (UIKit)</span>
+                <span class="text-[10px] text-slate-500">Tap to expand</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 bg-[#060a12] p-2 rounded-2xl border border-slate-800/80">
+                <button type="button" onclick="openLightbox('fitticoin-steps.png', 'FittiCoin — Daily Steps & Activity Rewards', 'Daily steps counter, activity ring, calories, and Arabi Fitness points integration')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Daily Steps Screen">
+                  <img src="fitticoin-steps.png" alt="FittiCoin Daily Steps" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+                <button type="button" onclick="openLightbox('fitticoin-rewards.png', 'FittiCoin — Rewards & Vouchers Marketplace', 'FittiEat food & beverage gift vouchers, Hamleys, and merchant partner discounts')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Rewards Marketplace Screen">
+                  <img src="fitticoin-rewards.png" alt="FittiCoin Rewards Marketplace" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+                <button type="button" onclick="openLightbox('fitticoin-communities.png', 'FittiCoin — Communities & Partner Organizations', 'Corporate wellness communities, partner organizations (Ogilvy, Abwaab, Azadea)')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Communities Screen">
+                  <img src="fitticoin-communities.png" alt="FittiCoin Communities" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
 
           <div class="pt-4 border-t border-slate-800/80 space-y-3">
