@@ -12,7 +12,6 @@ Modern, high-performance portfolio website showcasing mobile engineering experti
   - **FittiCoin** — Health gamification & custom rewards UI in native UIKit.
 - **Direct Engagement**: WhatsApp quick-chat (`wa.me`) integration and downloadable PDF resume.
 - **Client FAQ**: Clear answers on IP ownership, 100% App Store approval guarantee, and communication.
-- **Bilingual Localization**: One-click English ↔ Arabic (RTL) toggle.
 - **Clean Responsive Architecture**: Ultra-responsive layout styled with modern CSS & Tailwind.
 
 ## 🛠 Tech Stack
