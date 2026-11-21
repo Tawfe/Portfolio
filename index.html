@@ -92,9 +92,6 @@
           <a href="Tawfeeq_Irshaidat_Resume.pdf" download="Tawfeeq_Irshaidat_Resume.pdf" class="text-xs font-semibold px-2 py-1 rounded bg-slate-800 border border-slate-700 text-cyan-400">
             CV
           </a>
-          <button onclick="toggleLang()" id="lang-btn-mob" class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 border border-slate-700 text-slate-300">
-            العربية
-          </button>
         </div>
       </div>
 
@@ -106,14 +103,11 @@
         <a href="mailto:tawfeeq.irsh@gmail.com" class="hover:text-cyan-400 transition-colors">Contact</a>
       </nav>
 
-      <!-- Language & Direct Action CTAs -->
+      <!-- Direct Action CTAs -->
       <div class="flex items-center gap-2.5 text-xs w-full sm:w-auto justify-end">
         <a href="Tawfeeq_Irshaidat_Resume.pdf" download="Tawfeeq_Irshaidat_Resume.pdf" class="hidden sm:inline-flex items-center gap-1.5 font-semibold px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700 text-cyan-300 hover:text-white hover:border-cyan-500/50 transition-all">
           <span>📄 Download CV</span>
         </a>
-        <button onclick="toggleLang()" id="lang-btn" class="hidden sm:inline-block font-semibold px-3 py-1.5 rounded-lg bg-slate-800/90 border border-slate-700 text-slate-300 hover:text-white transition-all">
-          العربية (RTL)
-        </button>
         <a href="https://wa.me/962797094616?text=Hi%20Tawfeeq,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20mobile%20project." target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 font-bold text-white transition-all shadow-md shadow-emerald-600/20 flex items-center gap-1.5">
           <span>WhatsApp</span>
         </a>
@@ -529,34 +523,5 @@
       </div>
     </div>
   </footer>
-
-  <!-- SCRIPT FOR LANGUAGE TOGGLE -->
-  <script>
-    let isArabic = false;
-
-    // Language Toggle
-    function toggleLang() {
-      isArabic = !isArabic;
-      const html = document.getElementById('root-html');
-      const btnDesk = document.getElementById('lang-btn');
-      const btnMob = document.getElementById('lang-btn-mob');
-
-      if (isArabic) {
-        html.setAttribute('dir', 'rtl');
-        html.classList.add('font-cairo');
-        btnDesk.innerText = 'English (LTR)';
-        btnMob.innerText = 'English (LTR)';
-        document.getElementById('hero-badge').innerText = 'متاح للمشاريع البرمجية وتطوير تطبيقات الهواتف المحمولة';
-        document.getElementById('hero-bio').innerHTML = 'أنا <strong class="text-white">توفيق ارشيدات</strong>، مطور تطبيقات هواتف محمولة مستقل متخصص في بناء وتطوير تطبيقات <strong>iOS (Swift, SwiftUI, UIKit)</strong> وتطبيقات <strong>React Native</strong>. أمتلك خبرة عملية في تطوير تطبيقات إنتاجية حقيقية تتضمن بيانات لحظية، وأنظمة تسجيل مستخدمين متقدمة، وبوابات دفع إلكترونية (Stripe)، ونشر التطبيقات على متجر <strong>App Store</strong> و<strong>Google Play</strong>.';
-      } else {
-        html.removeAttribute('dir');
-        html.classList.remove('font-cairo');
-        btnDesk.innerText = 'العربية (RTL)';
-        btnMob.innerText = 'العربية (RTL)';
-        document.getElementById('hero-badge').innerText = 'Available for Contract & Freelance Mobile Development';
-        document.getElementById('hero-bio').innerHTML = 'I’m <strong class="text-white">Tawfeeq Irshaidat</strong>, an independent Mobile Application Developer shipping production apps with native <strong>iOS (Swift, SwiftUI, UIKit)</strong> and <strong>React Native</strong>. I contribute to production-grade apps with high-frequency live data, complex onboarding flows, and seamless store launches.';
-      }
-    }
-  </script>
 </body>
 </html>
