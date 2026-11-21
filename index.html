@@ -504,6 +504,57 @@
             <p class="text-xs text-slate-300 leading-relaxed">
               <strong>My Contribution:</strong> Integration experience with key payment infrastructure including <strong>Stripe</strong>, <strong>Paymob</strong>, <strong>Fawry</strong>, and <strong>Apple Pay</strong>. Architected secure mobile checkout flows, customer tokenization, error recovery, and webhook transaction confirmations.
             </p>
+
+            <!-- Creative Clustered Payment Gateways Showcase -->
+            <div class="pt-2 space-y-1.5">
+              <div class="flex items-center justify-between text-[11px] font-mono-code text-slate-400">
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></span> Integrated Gateways (Apple Pay · Paymob · Fawry)</span>
+                <span class="text-[10px] text-slate-500">Tap to expand</span>
+              </div>
+
+              <div class="relative h-52 bg-gradient-to-b from-[#060a14] via-[#091122] to-[#060a14] p-3 rounded-2xl border border-slate-800/80 overflow-hidden flex items-center justify-center">
+                <!-- Ambient Glow -->
+                <div class="absolute inset-0 bg-blue-600/10 pointer-events-none rounded-2xl blur-xl"></div>
+
+                <!-- Overlapping Cluster Deck -->
+                <div class="relative w-full h-full flex items-center justify-center">
+
+                  <!-- 1. Left Card: Fawry Mobile Checkout (Tilted Left) -->
+                  <button type="button" 
+                          onclick="openLightbox('payment-fawry.png', 'Fawry — Mobile Bill Pay & E-Wallet Gateway', 'Egypt largest payment network integration: in-app utility payments, digital wallets, cash-in networks, and merchant checkout')" 
+                          class="absolute left-1 sm:left-3 bottom-0 w-28 sm:w-32 -rotate-6 hover:rotate-0 hover:scale-110 hover:z-30 transition-all duration-300 drop-shadow-[0_12px_24px_rgba(0,0,0,0.85)] z-10 text-left focus:outline-none"
+                          title="Fawry Payment Gateway">
+                    <img src="payment-fawry.png" alt="Fawry Payment Gateway" class="w-full h-auto object-contain pointer-events-none" loading="lazy">
+                    <span class="absolute -bottom-1 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full bg-amber-500/90 text-slate-950 font-mono-code font-bold text-[9px] shadow-md whitespace-nowrap">
+                      Fawry Pay
+                    </span>
+                  </button>
+
+                  <!-- 2. Right Card: Apple Pay Express Checkout (Tilted Right) -->
+                  <button type="button" 
+                          onclick="openLightbox('payment-applepay.png', 'Apple Pay — Native iOS In-App Checkout', 'Single-touch biometric Apple Pay checkout, PassKit tokenization, and instant card validation')" 
+                          class="absolute right-1 sm:right-3 bottom-1 w-28 sm:w-32 rotate-6 hover:rotate-0 hover:scale-110 hover:z-30 transition-all duration-300 drop-shadow-[0_12px_24px_rgba(0,0,0,0.85)] z-10 text-left focus:outline-none rounded-xl overflow-hidden border border-blue-400/40"
+                          title="Apple Pay Mobile Checkout">
+                    <img src="payment-applepay.png" alt="Apple Pay Integration" class="w-full h-auto object-cover pointer-events-none" loading="lazy">
+                    <span class="absolute bottom-1 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full bg-black/90 border border-white/20 text-white font-mono-code font-bold text-[9px] shadow-md whitespace-nowrap">
+                       Apple Pay
+                    </span>
+                  </button>
+
+                  <!-- 3. Center Card: Paymob Merchant Gateway (Elevated in Forefront) -->
+                  <button type="button" 
+                          onclick="openLightbox('payment-paymob.png', 'Paymob — MENA Unified Payment Infrastructure', 'Integrated Paymob mobile checkout SDK: instant settlements, cards, mobile wallets, and installment options')" 
+                          class="relative z-20 w-32 sm:w-36 -translate-y-2 hover:-translate-y-3 hover:scale-110 hover:z-30 transition-all duration-300 drop-shadow-[0_18px_30px_rgba(0,0,0,0.95)] text-left focus:outline-none rounded-xl overflow-hidden border border-cyan-400/60"
+                          title="Paymob Mobile Gateway">
+                    <img src="payment-paymob.png" alt="Paymob Payment Integration" class="w-full h-auto object-cover pointer-events-none" loading="lazy">
+                    <span class="absolute bottom-1.5 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full bg-blue-600/90 text-white font-mono-code font-bold text-[9px] shadow-md whitespace-nowrap">
+                      Paymob SDK
+                    </span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="pt-4 border-t border-slate-800/80 space-y-3">
