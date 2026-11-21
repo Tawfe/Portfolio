@@ -347,9 +347,12 @@
         <div class="bg-[#0b101c] border border-slate-800 hover:border-cyan-500/50 transition-all rounded-3xl p-6 flex flex-col justify-between space-y-4">
           <div class="space-y-3">
             <div class="flex items-center justify-between gap-3 text-xs">
-              <span class="px-2.5 py-1 rounded-md bg-sky-950/80 border border-sky-500/30 text-sky-300 font-mono-code font-bold text-[11px] truncate">
-                HSSLAYA (HSSL)
-              </span>
+              <div class="flex items-center gap-2 min-w-0">
+                <img src="hssl-badge.png" alt="HSSL Logo" class="h-6 w-auto rounded-md border border-purple-500/40 shadow-sm shrink-0" title="Hsslaya (HSSL)">
+                <span class="px-2.5 py-1 rounded-md bg-purple-950/80 border border-purple-500/30 text-purple-300 font-mono-code font-bold text-[11px] truncate">
+                  HSSLAYA (HSSL)
+                </span>
+              </div>
               <span class="text-slate-400 text-xs font-mono-code shrink-0 text-right">SwiftUI · WatchKit</span>
             </div>
             
@@ -358,6 +361,34 @@
             <p class="text-xs text-slate-300 leading-relaxed">
               <strong>My Contribution:</strong> Lead developer for the bilingual (Arabic/English) stock trading app and its Apple Watch companion, built natively in <strong>SwiftUI</strong> and <strong>WatchKit</strong>. Engineered real-time market data streaming over <strong>SignalR</strong>, automated KYC identity verification at sign-up (ID scanning and liveness checks), integrated <strong>Fawry payments</strong>, a robo-advisor, and push notifications. Resolved third-party penetration testing findings and drove the app from initial screens to App Store releases, authoring <strong>133 of the project’s 134 commits</strong>.
             </p>
+
+            <!-- Production Screenshots Strip -->
+            <div class="pt-2 space-y-1.5">
+              <div class="flex items-center justify-between text-[11px] font-mono-code text-slate-400">
+                <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse"></span> Production iOS UI (SwiftUI)</span>
+                <span class="text-[10px] text-slate-500">Tap to expand</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 bg-[#060a12] p-2 rounded-2xl border border-slate-800/80">
+                <button type="button" onclick="openLightbox('hssl-portfolio.png', 'Hsslaya — Total Investment Value & Portfolio Analytics', 'Real-time portfolio valuation (EGP), interactive asset allocation donut chart, and sector holdings breakdown')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Portfolio Analytics Screen">
+                  <img src="hssl-portfolio.png" alt="Hsslaya Portfolio Analytics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+                <button type="button" onclick="openLightbox('hssl-market.png', 'Hsslaya — Real-Time Market Indices & Custom Watchlists', 'High-frequency EGX30, EGX70, EGX100 point tracking, percentage movements, and custom investor watchlists')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Market Watchlist Screen">
+                  <img src="hssl-market.png" alt="Hsslaya Market Indices" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+                <button type="button" onclick="openLightbox('hssl-depth.png', 'Hsslaya — Level-2 Market Depth & Real-Time Trading', '10-level bid/ask market depth order book, dynamic price updates over SignalR, and instant Buy/Sell execution')" class="group relative rounded-xl overflow-hidden border border-slate-800 hover:border-purple-500/70 transition-all bg-slate-900 aspect-[9/19.5] shadow-inner text-left" title="View Market Depth Screen">
+                  <img src="hssl-depth.png" alt="Hsslaya Market Depth & Trading" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                  <div class="absolute inset-0 bg-purple-950/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <span class="text-[10px] bg-slate-950/80 text-purple-300 px-1 py-0.5 rounded font-mono-code">🔍</span>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
 
           <div class="pt-4 border-t border-slate-800/80 space-y-3">
@@ -369,7 +400,7 @@
               <span class="bg-slate-900 border border-slate-800 px-2 py-0.5 rounded">MVVM + Coordinators</span>
               <span class="bg-slate-900 border border-slate-800 px-2 py-0.5 rounded">Combine</span>
             </div>
-            <div class="text-[11px] text-sky-400 font-mono-code">Status: Production Live on App Store 📱⌚️</div>
+            <div class="text-[11px] text-purple-400 font-mono-code">Status: Production Live on App Store 📱⌚️</div>
           </div>
         </div>
 
